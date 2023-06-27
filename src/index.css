@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --body-background: #0e0e0e;
+  --color-logo: #ff5b50;
+  --card-color: #252525;
+  --text-color: #fff;
+  --subtitle-color: #5a5757;
+  --black-text: #000;
+  --color-input: #0d0d0d;
+}
+
+body {
+  background-color: var(--body-background);
+  background-image: url("./assets/background.png");
+  background-repeat: no-repeat;
+}
+
+a,
+p,
+span {
+  text-decoration: none;
+  color: var(--text-color);
+}

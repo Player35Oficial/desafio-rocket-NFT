@@ -1,0 +1,46 @@
+.main-container {
+  display: flex;
+  width: 100%;
+  /* gap: 3.5rem; */
+  margin-top: 100px;
+  font-size: 1.125rem;
+  color: var(--text-color);
+  align-items: center;
+}
+
+.main-container .first-column {
+  display: flex;
+  flex-direction: column;
+  gap: 3.4rem;
+  width: 22.45rem;
+  font-size: 1.125rem;
+  /* flex: 1; */
+  margin-right: 40px;
+}
+
+.main-container .first-column .artists {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.main-container .first-column .artists span {
+  font-weight: 700;
+}
+
+.main-container .first-column .artists .artists-span {
+  align-self: flex-end;
+}
+
+.main-container .second-column {
+  font-size: 50px;
+  width: 740px;
+}
+
+.main-container .second-column span {
+  color: var(--color-logo);
+}
+
+/* .main-container .third-column {
+  flex: 0.5; 
+}
+*/

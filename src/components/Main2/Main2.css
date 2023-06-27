@@ -1,0 +1,72 @@
+.main2-container {
+  display: flex;
+  height: 660px;
+  width: 100%;
+}
+
+.main2-container aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  width: 280px;
+  border-right: 1px solid #5a5757;
+}
+
+.main2-container aside p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.main2-container aside p span {
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--subtitle-color);
+}
+
+.main2-container .main-section {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.main2-container .main-section .row1-section {
+  display: flex;
+  flex: 1;
+}
+
+.main2-container .main-section .row1-section .box {
+  padding: 70px 60px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main2-container .main-section .row1-section .box .box-phrase {
+  font-size: 18px;
+  width: 435px;
+}
+
+.main2-container .main-section .row1-section .box .box-phrase span {
+  color: var(--color-logo);
+  text-decoration: underline;
+}
+
+.main2-container .main-section .row1-section .box .box-author {
+  text-decoration: underline;
+}
+
+.main2-container .main-section .row2-section {
+  background-color: cadetblue;
+  background-image: url("../../assets/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  flex: 1;
+}

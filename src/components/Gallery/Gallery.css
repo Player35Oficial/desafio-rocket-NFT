@@ -1,0 +1,19 @@
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.75rem;
+  margin: 50px 5rem 0 5rem;
+}
+
+.gallery-container img {
+  height: 197px;
+  width: 300px;
+  border: 1px solid #fff;
+}
+
+.gallery-container .gallery1,
+.gallery2 {
+  display: flex;
+  gap: 1rem;
+}
