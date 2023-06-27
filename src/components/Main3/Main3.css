@@ -1,0 +1,70 @@
+.main3-container {
+  color: var(--text-color);
+  margin: 150px 87px 0 87px;
+}
+
+.main3-container .title {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 150px;
+}
+
+.main3-container .title span {
+  color: var(--color-logo);
+}
+
+.main3-container .popular-astronaut-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 4rem;
+  grid-column-gap: 20rem;
+  width: 100%;
+  justify-items: center;
+  position: relative;
+}
+
+.main3-container .popular-astronaut-container .divisor {
+  width: 1px;
+  height: 100%;
+  background-color: var(--subtitle-color);
+  position: absolute;
+  margin: 0 auto;
+}
+
+.main3-container .popular-astronaut-container .popular-astronaut {
+  grid-area: "column";
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* background-color: brown; */
+  /* margin-top: 150px; */
+  width: 350px;
+}
+
+.main3-container
+  .popular-astronaut-container
+  .popular-astronaut
+  .astronaut-title {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+.main3-container .popular-astronaut-container .popular-astronaut .name {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  color: var(--subtitle-color);
+}
+
+.main3-container .popular-astronaut-container .popular-astronaut .name span {
+  font-weight: 400;
+  color: var(--color-logo);
+}
+
+.main3-container
+  .popular-astronaut-container
+  .popular-astronaut
+  .astronaut-image {
+  margin-top: 1.2rem;
+}
