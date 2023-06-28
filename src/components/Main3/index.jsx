@@ -14,7 +14,7 @@ export default function Main3() {
           <span>Populares</span> da semana
         </h2>
 
-        <article className="popular-astronaut-container">
+        <div className="popular-astronaut-container">
           <PopularAstronaut
             titleAstronaut={"Astronauta 1"}
             titleArrow={arrowWhite}
@@ -44,7 +44,7 @@ export default function Main3() {
             astronautNFTValue={"4.30 RKT "}
             astronautNFTImg={astronauta4}
           />
-        </article>
+        </div>
       </section>
     </>
   );

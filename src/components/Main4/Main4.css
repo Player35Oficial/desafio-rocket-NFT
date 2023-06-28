@@ -1,0 +1,71 @@
+.main4-container {
+  color: var(--text-color);
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 120px;
+}
+
+.main4-container .title {
+  font-size: 50px;
+}
+
+.main4-container .title span {
+  color: var(--color-logo);
+}
+
+.main4-container .better-artists-container {
+  margin: 120px 87px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 110px;
+}
+
+.main4-container .better-artists-container .better-artist {
+  display: flex;
+  background-color: var(--card-color);
+  width: 350px;
+  height: 150px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.8rem;
+  padding: 25px 2rem;
+}
+
+.main4-container .better-artists-container .better-artist .better-artist-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.main4-container .better-artists-container .better-artist .better-artist-img {
+  height: 100px;
+  width: auto;
+}
+
+.main4-container
+  .better-artists-container
+  .better-artist
+  .better-artist-info
+  .better-artist-pictures {
+  font-size: 20px;
+  color: var(--color-logo);
+}
+
+.main4-container
+  .better-artists-container
+  .better-artist
+  .better-artist-info
+  .better-artist-title {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.main4-container .better-artists-container .better-artist.better {
+  background-color: #ff5b50;
+  color: var(--text-color);
+}
+
+.main4-container .better-artists-container .better-artist.better p {
+  color: var(--text-color) !important;
+}
