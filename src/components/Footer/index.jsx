@@ -11,9 +11,11 @@ export default function Footer() {
     <footer className="footer">
       <section className="first">
         <img className="img" src={logo} alt="" />
-        <button className="return-button" type="button">
-          <img className="" src={arrowBlack} alt="" />
-        </button>
+        <a href="#">
+          <button className="return-button" type="button">
+            <img className="" src={arrowBlack} alt="" />
+          </button>
+        </a>
       </section>
       <section className="second">
         <div className="fsection">
@@ -71,16 +73,18 @@ export default function Footer() {
             <ul>
               <h4>Links</h4>
               <li>
-                <a href="">Sobre</a>
+                <a id="FAQ" href="#">
+                  FAQs
+                </a>
               </li>
               <li>
-                <a href="">Serviços</a>
+                <a href="">Termos</a>
               </li>
               <li>
-                <a href="">Time</a>
+                <a href="">Política</a>
               </li>
               <li>
-                <a href="">Carreira</a>
+                <a href="">Ajuda</a>
               </li>
             </ul>
           </div>

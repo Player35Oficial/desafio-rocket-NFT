@@ -9,7 +9,7 @@ import PopularAstronaut from "./../PopularAstronaut/index.jsx";
 export default function Main3() {
   return (
     <>
-      <section className="main3-container">
+      <section id="comprarnft" className="main3-container">
         <h2 className="title">
           <span>Populares</span> da semana
         </h2>

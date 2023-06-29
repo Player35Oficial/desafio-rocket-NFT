@@ -128,3 +128,7 @@
 .footer .third .social img {
   height: 30px;
 }
+
+.footer :target {
+  color: RED;
+}

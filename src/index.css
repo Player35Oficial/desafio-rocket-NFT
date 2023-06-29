@@ -27,3 +27,7 @@ span {
   text-decoration: none;
   color: var(--text-color);
 }
+
+html {
+  scroll-behavior: smooth;
+}

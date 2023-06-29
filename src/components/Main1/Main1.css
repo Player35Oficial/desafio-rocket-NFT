@@ -1,7 +1,6 @@
 .main-container {
   display: flex;
   width: 100%;
-  /* gap: 3.5rem; */
   margin-top: 100px;
   font-size: 1.125rem;
   color: var(--text-color);
@@ -14,7 +13,6 @@
   gap: 3.4rem;
   width: 22.45rem;
   font-size: 1.125rem;
-  /* flex: 1; */
   margin-right: 40px;
 }
 
@@ -40,7 +38,16 @@
   color: var(--color-logo);
 }
 
-/* .main-container .third-column {
-  flex: 0.5; 
+.main-container .third-column {
+  animation: rotate 5s infinite linear;
 }
-*/
+
+@keyframes rotate {
+  from {
+    transform: rotate(1);
+  }
+
+  to {
+    transform: rotate(-359deg);
+  }
+}
