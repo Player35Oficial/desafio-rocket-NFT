@@ -14,7 +14,7 @@ Neste desafio você deverá desenvolver uma landing page completa sobre NFTs.
 
 ## Layout
 
-![Untitled](./Untitled.png)
+![Untitled](./cover.png)
 
 <aside>
 🎨 <strong>Acesse o layout no Figma aqui:</strong>
