@@ -14,7 +14,7 @@ Neste desafio você deverá desenvolver uma landing page completa sobre NFTs.
 
 ## Layout
 
-![Untitled](Desafio%20Rocket%20NFTs%assets/Untitled.png)
+![Untitled](./Untitled.png)
 
 <aside>
 🎨 <strong>Acesse o layout no Figma aqui:</strong>
