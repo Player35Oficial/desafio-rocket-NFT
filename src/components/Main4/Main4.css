@@ -2,7 +2,7 @@
   color: var(--text-color);
   text-align: center;
   margin-top: 150px;
-  margin-bottom: 120px;
+  margin-bottom: 30px;
 }
 
 .main4-container .title {
@@ -14,10 +14,11 @@
 }
 
 .main4-container .better-artists-container {
-  margin: 120px 87px;
+  margin: 120px 87px 50px 87px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-row-gap: 110px;
+  justify-items: center;
 }
 
 .main4-container .better-artists-container .better-artist {
@@ -68,4 +69,21 @@
 
 .main4-container .better-artists-container .better-artist.better p {
   color: var(--text-color) !important;
+}
+
+.main4-container .viewAll {
+  display: flex;
+  justify-content: center;
+}
+
+.main4-container .viewAll a {
+  text-decoration: none;
+  color: var(--text-color);
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+}
+
+.main4-container .viewAll a img {
+  height: 30px;
 }

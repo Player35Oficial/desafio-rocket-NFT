@@ -1,5 +1,6 @@
 import "./Main4.css";
 import artista1 from "../../assets/artista-1.png";
+import arrowOrange from "../../assets/arrow-orange.svg";
 
 export default function Main4() {
   return (
@@ -50,6 +51,11 @@ export default function Main4() {
             <p className="better-artist-pictures">80 Fotografias</p>
           </div>
         </div>
+      </div>
+      <div className="viewAll">
+        <a href="">
+          Ver todos os artistas <img src={arrowOrange} alt="" />
+        </a>
       </div>
     </section>
   );
