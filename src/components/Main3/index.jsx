@@ -23,7 +23,7 @@ export default function Main3() {
             astronautNFTImg={astronauta1}
           />
           <PopularAstronaut
-            titleAstronaut={"Astronauta 3"}
+            titleAstronaut={"Astronauta 2"}
             titleArrow={arrowWhite}
             astronautName={"João Inácio (Biro)"}
             astronautNFTValue={"3.75 RKT "}
@@ -31,7 +31,7 @@ export default function Main3() {
           />
           <div className="divisor"></div>
           <PopularAstronaut
-            titleAstronaut={"Astronauta 2"}
+            titleAstronaut={"Astronauta 3"}
             titleArrow={arrowWhite}
             astronautName={"Jakeliny Gracielly"}
             astronautNFTValue={"2.0 RKT "}

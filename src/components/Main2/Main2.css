@@ -2,6 +2,7 @@
   display: flex;
   height: 660px;
   width: 100%;
+  overflow: hidden;
 }
 
 .main2-container aside {
@@ -62,8 +63,7 @@
 }
 
 .main2-container .main-section .row2-section {
-  background-color: cadetblue;
-  background-image: url("../../assets/banner.png");
+  display: flex;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;

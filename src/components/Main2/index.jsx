@@ -1,4 +1,5 @@
 import "./Main2.css";
+import banner from "../../assets/banner.png";
 
 export default function Main2() {
   return (
@@ -38,7 +39,12 @@ export default function Main2() {
             <p className="box-author">Lorem ipsum</p>
           </article>
         </section>
-        <section className="row2-section"></section>
+        <section className="row2-section">
+          <img
+            src={banner}
+            alt="Homem negro com óculos espelhado futurista largo"
+          />
+        </section>
       </section>
     </section>
   );

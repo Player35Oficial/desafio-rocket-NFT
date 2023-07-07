@@ -27,7 +27,7 @@
 
 .footer .fsection {
   display: flex;
-  padding: 60px 12px 60px 80px;
+  padding: 3rem;
   align-items: center;
   flex: 1;
   border-right: 1px solid var(--subtitle-color);

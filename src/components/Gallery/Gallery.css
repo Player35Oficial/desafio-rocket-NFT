@@ -1,9 +1,12 @@
 .gallery-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: 3.75rem;
-  margin: 50px 5rem 0 5rem;
+  margin-top: 50px;
+  padding-bottom: 1rem;
+  width: 100%;
+  overflow: scroll;
 }
 
 .gallery-container img {
