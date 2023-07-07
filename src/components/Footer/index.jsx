@@ -37,7 +37,7 @@ export default function Footer() {
         <div className="ssection">
           <div className="ssection-column">
             <ul>
-              <h4>Empresa</h4>
+              <li>Empresa</li>
               <li>
                 <a href="">Sobre</a>
               </li>
@@ -54,7 +54,7 @@ export default function Footer() {
           </div>
           <div className="ssection-column">
             <ul>
-              <h4>Mapa</h4>
+              <li>Mapa</li>
               <li>
                 <a href="">Galeria</a>
               </li>
@@ -71,7 +71,7 @@ export default function Footer() {
           </div>
           <div className="ssection-column">
             <ul>
-              <h4>Links</h4>
+              <li>Links</li>
               <li>
                 <a id="FAQ" href="#">
                   FAQs
@@ -102,21 +102,21 @@ export default function Footer() {
         </div>
         <div className="social">
           <a
-            href="https://www.youtube.com/rocketseat"
+            href="https://www.youtube.com/@player35_"
             rel="noreferrer"
             target="_blank"
           >
             <img src={youtube} alt="" />
           </a>
           <a
-            href="https://www.instagram.com/rocketseat/"
+            href="https://www.instagram.com/player35_dev/"
             rel="noreferrer"
             target="_blank"
           >
             <img src={instagram} alt="" />
           </a>
           <a
-            href="https://twitter.com/rocketseat"
+            href="https://twitter.com/Player35Ofi_dev"
             rel="noreferrer"
             target="_blank"
           >

@@ -97,14 +97,15 @@
   font-weight: 400;
   list-style: none;
 }
-.footer .ssection .ssection-column ul h4 {
-  color: var(--text-color);
+.footer .ssection .ssection-column ul li:nth-child(1) {
+  color: #fff;
   margin-bottom: -9px;
+  font-size: 1.2em;
   font-weight: 700;
 }
 
 .footer .ssection .ssection-column ul li a {
-  color: var(--subtitle-color);
+  color: #d1d1d1;
 }
 
 .footer .third {
