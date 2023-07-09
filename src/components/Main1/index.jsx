@@ -12,7 +12,10 @@ export default function Main1() {
         </p>
         <div className="artists">
           <div className="group-avatars">
-            <img src={groupAvatars} alt="" />
+            <img
+              src={groupAvatars}
+              alt="fotos de artistas enfileiradas até 4"
+            />
           </div>
           <div className="artists-span">
             <span>+10</span>
@@ -29,7 +32,7 @@ export default function Main1() {
       </article>
 
       <article className="third-column">
-        <img src={badge} alt="" />
+        <img src={badge} alt="selo circular da ROCKET NFT's" />
       </article>
     </section>
   );
