@@ -41,22 +41,22 @@ export default function Footer() {
             <ul>
               <li>Empresa</li>
               <li>
-                <a href="" aria-label="Navegar para a página Sobre">
+                <a href="#sobre" aria-label="Navegar para a página Sobre">
                   Sobre
                 </a>
               </li>
               <li>
-                <a href="" aria-label="Navegar para a página Serviços">
+                <a href="#servicos" aria-label="Navegar para a página Serviços">
                   Serviços
                 </a>
               </li>
               <li>
-                <a href="" aria-label="Navegar para a página Time">
+                <a href="#time" aria-label="Navegar para a página Time">
                   Time
                 </a>
               </li>
               <li>
-                <a href="" aria-label="Navegar para a página Carreira">
+                <a href="#carreira" aria-label="Navegar para a página Carreira">
                   Carreira
                 </a>
               </li>
@@ -66,22 +66,25 @@ export default function Footer() {
             <ul>
               <li>Mapa</li>
               <li>
-                <a href="" aria-label="Navegar para o tópico Galeria">
+                <a href="#galeria" aria-label="Navegar para o tópico Galeria">
                   Galeria
                 </a>
               </li>
               <li>
-                <a href="" aria-label="Navegar para o tópico Populares">
+                <a
+                  href="#populars"
+                  aria-label="Navegar para o tópico Populares"
+                >
                   Populares
                 </a>
               </li>
               <li>
-                <a href="" aria-label="Navegar para o tópico Vendas">
+                <a href="#sends" aria-label="Navegar para o tópico Vendas">
                   Vendas
                 </a>
               </li>
               <li>
-                <a href="" aria-label="Navegar para o tópico Contato">
+                <a href="#contats" aria-label="Navegar para o tópico Contato">
                   Contato
                 </a>
               </li>
@@ -91,23 +94,26 @@ export default function Footer() {
             <ul>
               <li>Links</li>
               <li>
-                <a id="FAQ" href="#">
+                <a id="FAQ" href="#faq">
                   FAQs
                 </a>
               </li>
               <li>
-                <a href="" aria-label="Navegue para ler nossos Termos">
+                <a href="#terms" aria-label="Navegue para ler nossos Termos">
                   Termos
                 </a>
               </li>
               <li>
-                <a href="" aria-label="Navegue para ler nossa Política">
+                <a
+                  href="#politics"
+                  aria-label="Navegue para ler nossa Política"
+                >
                   Política
                 </a>
               </li>
               <li>
                 <a
-                  href=""
+                  href="#help"
                   aria-label="Navegue para procurar Ajuda dentro de nosso Site"
                 >
                   Ajuda

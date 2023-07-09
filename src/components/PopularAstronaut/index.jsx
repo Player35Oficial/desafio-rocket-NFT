@@ -10,7 +10,7 @@ export default function PopularAstronaut({
       <h2 className="astronaut-title">
         {titleAstronaut}
         <a
-          href=""
+          href="#astronaut"
           aria-label="Navegação para página com outras páginas do artista"
         >
           <img

@@ -82,7 +82,7 @@ export default function Main4() {
         </div>
       </div>
       <div className="viewAll">
-        <a href="">
+        <a href="#moreartists">
           Ver todos os artistas{" "}
           <img
             src={arrowOrange}

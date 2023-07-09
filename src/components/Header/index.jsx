@@ -5,7 +5,7 @@ import "./Header.css";
 export default function Header() {
   return (
     <header className="principal-header">
-      <a href="/" aria-label="Navegue para página inicial da Rocket NFT's">
+      <a href="#" aria-label="Navegue para página inicial da Rocket">
         <img
           className="logo"
           src={rocketnftLogo}
